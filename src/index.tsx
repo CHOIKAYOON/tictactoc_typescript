@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import GG from './GG'
+import Game from '../src/Game'
 
 ReactDOM.render(
   <React.StrictMode>
-    <GG />
+    <Game />
   </React.StrictMode>,
   document.getElementById('root')
 );
